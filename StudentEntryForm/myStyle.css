@@ -1,0 +1,10 @@
+input:focus {
+    outline: none;
+}
+}
+.enable{
+	border: 1px solid #8842d5;
+}		        
+.disable{
+	width:30px; background-color:Transparent; border:0px solid;
+}
