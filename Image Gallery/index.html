@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="myStyles.css">
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Image gallery</h1>
+</div>
+
+
+<!-- Photo Grid -->
+<div class="container gallery-container">
+	<div class="tz-gallery">
+    <nav aria-label="Page navigation example">
+  <ul class="pagination pg-blue" id="pages">
+  </ul>
+</nav>
+		<div class="row" id="gallery">
+      <div class='column' id="column0"></div>
+      <div class='column' id="column1"></div>
+      <div class='column' id="column2"></div>
+      <div class='column' id="column3"></div>
+		</div>
+	</div>
+</div>
+
+	<!-- The Modal -->
+
+    <div id="myModal" class="modal">
+      <span class="close" style="color:white" onclick= 'closeImg()'>&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+
+    </div>
+
+    
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="images.js"></script>
+    <script src="myScript.js"></script>
+</body>
+</html>
